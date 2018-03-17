@@ -1,0 +1,358 @@
+/***** Font Definition for Open Sans. This stylesheet comes from qrohlf.com/posts/better-opensans *****/
+
+/* Regular */
+@font-face {
+    font-family: 'Open Sans';
+    
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic-webfont.eot');
+    src: url('fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Italic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+/* Light */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/* Light Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+/* Semibold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Semibold-webfont.eot');
+    src: url('fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+/* Semibold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold-webfont.eot');
+    src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/* Extra Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+
+ /* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
+} 
+
+a.current:link, a.current:visited {
+  color: hotpink;
+} 
+
+body {
+    font-family: "Open Sans";
+    background-color: black;
+}
+
+.topnav {
+    text-align: center;
+    padding: 20px 1px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.4;
+    color: #CB475A;
+    text-align: center;
+    font-weight: 300;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+ul {
+    color: #FFFFFF;
+    list-style: none;
+}
+
+li:before {
+	content: "☘️";
+	display: block;
+	float: left;
+	width: 1.2em;
+}
+
+img.logo {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 1px #000000;
+}
+
+video {
+ width: 300px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 50%;
+ border: 5px solid white;
+ box-shadow: 0px 0px 10px 1px #000000;
+ }
+
+img.roundedrow {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 1px #000000;
+}
+img.row {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    padding: 0px 10px;
+    
+}
+
+img.desktop {
+    display: block;
+    max-width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px;
+    width: auto;
+}
+
+img.stuff {
+    display: block;
+    border-radius: 2%;
+    box-shadow: 0px 0px 2px 0px #000000;
+    max-width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgrow {
+  position: relative;
+  display: inline-block;
+}
+
+.imgrow p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30%;
+    left: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 2px 2px #000000;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+}
+
+h4 {
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 300;
+}
+
+.centerblock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.card {
+    margin: auto;
+    max-width: 855555%;
+    padding: 50px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    background: #2d2d2d;
+}
+
+#blur-background {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-image: url(../img/gigaa.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-filter: blur(30px);
+}
+
