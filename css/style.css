@@ -182,6 +182,20 @@ h1 {
     font-weight: 300;
 }
 
+h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+}
+
+h4 {
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 300;
+}
+
 p {
     color: #FFFFFF;
 }
@@ -204,37 +218,7 @@ img.logo {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 5px solid white;
-    box-shadow: 0px 0px 10px 1px #000000;
-}
-
-video {
- width: 300px;
- display: block;
- margin-left: auto;
- margin-right: auto;
- border-radius: 50%;
- border: 5px solid white;
- box-shadow: 0px 0px 10px 1px #000000;
- }
-
-img.roundedrow {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    width: 120px;
-    margin: 10px;
-    border-radius: 50%;
-    border: 5px solid white;
-    box-shadow: 0px 0px 10px 1px #000000;
-}
-img.row {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    width: 120px;
-    padding: 0px 10px;
-    
+    border: 3px solid white;
 }
 
 img.desktop {
@@ -247,89 +231,12 @@ img.desktop {
     width: auto;
 }
 
-img.stuff {
-    display: block;
-    border-radius: 2%;
-    box-shadow: 0px 0px 2px 0px #000000;
-    max-width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.imgrow {
-  position: relative;
-  display: inline-block;
-}
-
-.imgrow p {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    bottom: 30%;
-    left: 0;
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 300;
-    text-shadow: 2px 2px #000000;
-}
-
-h3 {
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 300;
-}
-
-h4 {
-	font-size: 15px;
-	color: #FFFFFF;
-	text-align: center;
-	font-weight: 300;
-}
-
 .centerblock {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: white;
-    color: #000;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 110%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: white transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
 }
 
 .card {
