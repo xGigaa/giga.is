@@ -260,6 +260,6 @@ img.desktop {
     background-image: url(../img/gigaa.png);
     background-repeat:no-repeat;
     background-size:cover;
-    -webkit-filter: blur(30px);
+    -webkit-filter: blur(55px);
 }
 
