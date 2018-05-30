@@ -162,9 +162,36 @@ a.current:link, a.current:visited {
   color: hotpink;
 } 
 
-body {
+html, body {
     font-family: "Open Sans";
+    width: 100%;
+    height: 100%;
+    margin: 0px;
     background-color: black;
+}
+
+.wallpaper {
+    background: url('../img/wallpaper.jpg') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+}
+
+.wallpaper:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    opacity: .8;
+    background-image: -webkit-linear-gradient(318deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
+    background-image: -o-linear-gradient(318deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
+    background-image: -ms-linear-gradient(318deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
+    background-image: -moz-linear-gradient(318deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
+    background-image: linear-gradient(132deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
 }
 
 .topnav {
@@ -200,14 +227,6 @@ p {
 
 ul {
     color: #FFFFFF;
-    list-style: none;
-}
-
-li:before {
-	content: "☘️";
-	display: block;
-	float: left;
-	width: 1.2em;
 }
 
 img.logo {
@@ -220,12 +239,13 @@ img.logo {
 }
 
 img.desktop {
+    border: 2px solid white;
     display: block;
     max-width: 100%;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 0px;
+    margin-top: 20px;
     width: auto;
 }
 
@@ -236,28 +256,3 @@ img.desktop {
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-
-.card {
-    margin: auto;
-    max-width: 855555%;
-    padding: 50px 50px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    background: #2d2d2d;
-}
-
-#blur-background {
-    position: absolute;
-
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-
-    background-image: url(../img/gigaa.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    -webkit-filter: blur(55px);
-}
-
