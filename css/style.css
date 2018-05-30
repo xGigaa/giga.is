@@ -186,7 +186,7 @@ html, body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-    opacity: .8;
+    opacity: .7;
     background-image: -webkit-linear-gradient(318deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
     background-image: -o-linear-gradient(318deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
     background-image: -ms-linear-gradient(318deg, rgb(20, 29, 66) 0%, rgb(71, 46, 84) 52%, rgb(71, 46, 84) 100%);
