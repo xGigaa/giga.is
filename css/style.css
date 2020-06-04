@@ -54,6 +54,14 @@ p, ul, li {
     font-size: 18px;
 }
 
+ul {
+    list-style-type: square;
+}
+
+li {
+    list-style-position: inside;
+}
+
 img.logo {
     width: 250px;
     background: #FF699B;
