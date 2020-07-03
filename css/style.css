@@ -1,57 +1,58 @@
 @font-face {
-    font-family: 'OpenSansPX';
-    src: url('fonts/OpenSansPX.ttf'); 
+    font-family: 'Press Start 2P';
+    src: url('fonts/PressStart2P-Regular.ttf'); 
 }
 
  /* unvisited link */
 a:link {
-    color: hotpink;
+    color: #de3c71;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: hotpink;
+    color: #de3c71;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: #de3c71;
     text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: hotpink;
+    color: #de3c71;
     text-decoration: underline;
 } 
 
 a.current:link, a.current:visited {
-  color: hotpink;
+    color: #de3c71;
 } 
 
 html, body {
-    font-family: "courier new", monospace;
     background-color: black;
     text-align: center;
     word-wrap: break-word;    
-    max-width: 50em;
+    max-width: 52em;
     margin: auto;
+    font-family: 'Press Start 2P';
 }
 
 
 h1 {
     font-size: 55px;
-    line-height: 1.4;
-    color: #CB475A;
+    line-height: 1.0;
+    color: #de3c71;
     text-align: center;
 }
 
 p, ul, li {
     color: #FFFFFF;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 ul {
@@ -63,10 +64,10 @@ li {
 }
 
 img.logo {
-    width: 250px;
-    background: #FF699B;
-  box-shadow: 5px 5px #de3c71, 10px 10px #c9298c, 15px 15px #47054f;
-
+    padding: 0px;
+    width: 300px;
+    background: #de3c71;
+    box-shadow: 5px 5px #de3c71, 10px 10px #de3c71, 15px 15px #de3c71;
 }
 
 .row {
