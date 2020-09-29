@@ -3,40 +3,31 @@
     src: url('fonts/PressStart2P-Regular.ttf'); 
 }
 
- /* unvisited link */
-a:link {
+a:link, a:visited {
     color: #de3c71;
     text-decoration: none;
 }
 
-/* visited link */
-a:visited {
-    color: #de3c71;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
+a:hover, a:active {
     color: #de3c71;
     text-decoration: underline;
 }
 
-/* selected link */
-a:active {
-    color: #de3c71;
-    text-decoration: underline;
+/* artist link*/
+.artistlink {
+    color: #FFFFFF !important;
 } 
 
-a.current:link, a.current:visited {
-    color: #de3c71;
-} 
 
 html, body {
     background-color: black;
     text-align: center;
     word-wrap: break-word;    
     max-width: 52em;
-    margin: auto;
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     font-family: 'Press Start 2P';
 }
 
@@ -67,11 +58,15 @@ img.logo {
     padding: 0px;
     width: 300px;
     background: #de3c71;
-    box-shadow: 5px 5px #de3c71, 10px 10px #de3c71, 15px 15px #de3c71;
 }
 
 .row {
     display: flex;
+}
+
+.col-top {
+    padding: 2em;
+    min-width: 404px;
 }
 
 .col {
