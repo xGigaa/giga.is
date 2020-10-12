@@ -54,7 +54,7 @@ li {
     list-style-position: inside;
 }
 
-img.logo {
+.logo {
     padding: 0px;
     width: 300px;
     background: #de3c71;
