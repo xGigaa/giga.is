@@ -22,7 +22,8 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,New,monospace,serif;
+    font-family: "Menlo","Monaco","Lucida Console","Liberation Mono","DejaVu Sans Mono","Bitstream Vera Sans Mono","Courier","New","monospace","serif";
+    image-rendering: -webkit-optimize-contrast;
 }
 
 
@@ -57,8 +58,8 @@ li {
     -webkit-box-shadow: 10px 10px 0px 0px rgba(180,156,202,1);
     -moz-box-shadow: 10px 10px 0px 0px rgba(180,156,202,1);
     box-shadow: 10px 10px 0px 0px rgba(180,156,202,1);
-
 }
+
 
 .row {
     display: flex;
