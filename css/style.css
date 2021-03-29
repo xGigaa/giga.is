@@ -8,12 +8,6 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-/* artist link*/
-.artistlink {
-    color: #FFFFFF !important;
-} 
-
-
 html, body {
     background-color: black;
     text-align: center;
@@ -24,14 +18,6 @@ html, body {
     transform: translate(-50%, -50%);
     font-family: "Menlo","Monaco","Lucida Console","Liberation Mono","DejaVu Sans Mono","Bitstream Vera Sans Mono","Courier","New","monospace","serif";
     image-rendering: -webkit-optimize-contrast;
-}
-
-
-h1 {
-    font-size: 55px;
-    line-height: 1.0;
-    color: #c9aee1;
-    text-align: center;
 }
 
 p, ul, li {
